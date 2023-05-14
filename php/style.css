@@ -1,0 +1,65 @@
+body {
+    padding: 10px 100px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    font-weight: 900;
+}
+
+div {
+    padding: 5px 5px ;
+    background-color: rgb(164, 206, 147);
+    width: auto;
+    color: white;
+    line-height: 10%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+ 
+form {
+    background-color: rgb(238, 239, 235);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 20px 80px 100px;
+    font-size: large;
+}
+ 
+input[type="text"],
+input[type="date"],
+input[type="email"]{
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 1px 10px;
+  
+    
+}
+#status{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px 10px;
+} 
+
+input[type="submit"] {
+    background-color: rgb(164, 206, 147);
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    padding: 5px 10px 10px;
+}
+
+
+input[type="submit"]:hover {
+    background-color: rgb(163, 29, 29);
+}
+
+input[type="reset"]:hover {
+    background-color: rgb(233, 124, 124);
+}
+

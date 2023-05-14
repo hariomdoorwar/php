@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div>
+<h2>Student Details </h2>
+</div>
+<form method="post" action="connect.php">
+
+<label>Full Name : </label><br>
+<input type="text" id="full" name="full" placeholder="full name"/> <br>              
+
+<label id="father" >Father Name : </label> </br>
+<input type="text" name="father" placeholder="Father Name" /><br>
+
+<label>DoB : </label><br>
+<input type="date" id="date" name="DoB" placeholder="DoB" /> <br>
+
+<label>E-mail : </label><br>
+<input type="email" id="Email" name="Email" placeholder="E-mail" /> <br>
+
+
+<label>Department : </label><br>
+<input type="text" id="dept" name="Department" placeholder="Department" /> <br>
+
+<label>Course : </label><br>
+<input type="text" id="course" name="Course" placeholder="Course" /> <br>
+
+<label for="Status">Status:</label>
+
+<select name="status" id="status">
+  <option value="active">Active</option>
+  <option value="inactive">inactive</option>
+
+</select><br>
+
+<input type="submit" value="submit"> <input type="reset" value="Reset">
+
+</form>
+</body>
+
+</html>
